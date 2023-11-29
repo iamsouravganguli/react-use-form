@@ -1,6 +1,6 @@
 {
   "name": "new-react-use-form",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React hook for handling Laravel form requests and validation (for React & React Native)",
   "keywords": [
     "react",
@@ -83,10 +83,6 @@
   },
   "release-it": {
     "hooks": {
-      "before:init": [
-        "npm run coverage",
-        "npm run lint"
-      ],
       "after:bump": "npm run build"
     }
   }

@@ -164,7 +164,6 @@ class Form<Data extends Record<string, any>> {
       params: {},
       url,
       method,
-      onUploadProgress: this.handleUploadProgress.bind(this),
       ...config,
     };
 
