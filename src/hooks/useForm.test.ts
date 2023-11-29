@@ -519,9 +519,6 @@ describe('useForm', () => {
         mock.onPost(apiBase).reply((config) => {
           const total = 1024; // mocked file size
           const progress = 0.4;
-          if (config.onUploadProgress) {
-            config.onUploadProgress({ loaded: total * progress, total });
-          }
           return [200, null];
         });
 
@@ -543,10 +540,6 @@ describe('useForm', () => {
         mock.onPost(apiBase).reply(async (config) => {
           const total = 1024; // mocked file size
           const progress = 0.4;
-
-          if (config.onUploadProgress) {
-            config.onUploadProgress({ loaded: total * progress, total });
-          }
 
           expect(result.current.progress).toEqual({
             total: 1024,
