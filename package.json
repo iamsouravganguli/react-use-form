@@ -1,6 +1,6 @@
 {
-  "name": "@alfonsobries/react-use-form",
-  "version": "0.1.17",
+  "name": "new-react-use-form",
+  "version": "1.0.0",
   "description": "React hook for handling Laravel form requests and validation (for React & React Native)",
   "keywords": [
     "react",
@@ -18,10 +18,10 @@
       "require": "./dist/index.umd.js"
     }
   },
-  "author": "Alfonso Bribiesca <alfonso@vexilo.com>",
+  "author": "Sourav Ganguli <mysganguli@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alfonsobries/react-use-form"
+    "url": ""
   },
   "license": "MIT",
   "private": false,
@@ -70,7 +70,7 @@
     "prettier": "^2.6.1",
     "react-dom": "^16.9.0",
     "react-test-renderer": "^16.9.0",
-    "release-it": "^14.14.0",
+    "release-it": "^16.3.0",
     "rollup": "^2.70.1",
     "tslib": "^2.3.1",
     "typescript": "^4.6.3",
@@ -78,7 +78,7 @@
     "vitest": "^0.8.2"
   },
   "peerDependencies": {
-    "axios": "^0.26.1",
+    "axios": "^1.6.2",
     "react": "^16.9.0"
   },
   "release-it": {
